@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Matemáticas Básicas: División</title>
+</head>
+<body>
+    <!-- Tabla general que organiza toda la página -->
+    <table border="1" width="100%" cellpadding="10">
+        <!-- Encabezado -->
+        <tr>
+            <td colspan="2" align="center">
+                <h1>Matemáticas Básicas: División</h1>
+                <img src="imagenes/division.jpg" alt="Icono division" width="320">
+                <p>Conceptos, algoritmo de la división larga, ejemplos y ejercicios</p>
+            </td>
+        </tr>
+
+        <!-- Barra de navegación -->
+        <tr>
+            <td colspan="2" align="center">
+                <a href="index.html">Inicio</a> |
+                <a href="numeros.html">Números</a> |
+                <a href="suma.html">Suma</a> |
+                <a href="resta.html">Resta</a> |
+                <a href="multiplicacion.html">Multiplicación</a> |
+                <a href="division.html">División</a> |
+                <a href="trigonometria.html">Trigonometria</a> |
+                <a href="geometria.html">Geometría</a> |
+                <a href="algebra.html">Álgebra</a> |
+                <a href="contacto.html">Contacto</a>
+            </td>
+        </tr>
+
+        <!-- Cuerpo dividido en aside y contenido principal -->
+        <tr>
+            <!-- Aside -->
+            <td width="25%" valign="top">
+                <h3>Cómo usar esta página</h3>
+                <ul>
+                    <li>Practica la tabla de multiplicar porque facilita la división.</li>
+                    <li>Sigue paso a paso el algoritmo de la división larga.</li>
+                    <li>Comprueba con multiplicación (cociente × divisor + resto = dividendo).</li>
+                </ul>
+
+                <h3>Consejos</h3>
+                <ul>
+                    <li>Si no cabe un número, prueba con un cociente menor.</li>
+                    <li>Cuando sea decimal, agrega ceros al dividendo y sigue dividiendo.</li>
+                </ul>
+
+                <h3>Curiosidad</h3>
+                <p>
+                    La división larga que se enseña hoy se formalizó con el desarrollo del sistema posicional; antes se usaban tablas y métodos basados en restas repetidas.
+                </p>
+            </td>
+
+            <!-- Contenido principal -->
+            <td width="75%" valign="top">
+                <h2>¿Qué es la división?</h2>
+                <p>
+                    La <strong>división</strong> es la operación que reparte una cantidad (dividendo) en partes iguales determinadas por el divisor. 
+                    Se representa como <strong>dividendo ÷ divisor = cociente (con resto)</strong>.
+                </p>
+
+                <h2>Terminología</h2>
+                <ul>
+                    <li><strong>Dividendo:</strong> número que se divide.</li>
+                    <li><strong>Divisor:</strong> número por el que se divide.</li>
+                    <li><strong>Cociente:</strong> resultado entero de la división.</li>
+                    <li><strong>Resto:</strong> lo que queda si la división no es exacta.</li>
+                </ul>
+
+                <h2>Regla importante</h2>
+                <p><strong>No se puede dividir entre cero.</strong> (Dividir por 0 es indefinido)</p>
+
+                <h2>Algoritmo de la división larga (pasos)</h2>
+                <ol>
+                    <li>Se busca cuántas veces entra el divisor en las primeras cifras del dividendo (sin pasarse).</li>
+                    <li>Se escribe ese número en la parte del cociente correspondiente.</li>
+                    <li>Se multiplica ese cociente parcial por el divisor y se resta del fragmento del dividendo.</li>
+                    <li>Se baja la siguiente cifra del dividendo y se repite hasta terminar.</li>
+                </ol>
+
+                <h2>Ejemplo paso a paso</h2>
+                <p>Dividir 154 entre 7:</p>
+                <pre>
+  22
+  ------
+7 | 154
+    14
+   ----
+     14
+     14
+   ----
+      0
+</pre>
+                <p>7 entra 2 veces en 15 → 2 en cociente; 2×7=14; 15−14=1; bajar 4 → 14; 7 entra 2 veces en 14 → resto 0. Resultado: 154 ÷ 7 = 22.</p>
+
+                <h2>División con resto</h2>
+                <p>Ejemplo: 17 ÷ 5 → 5 entra 3 veces (3×5=15), resto 2. Escribimos 3 con resto 2 o 3,4 si continuamos con decimales (2.0 → 20, 20 ÷ 5 = 4 → 3.4 exacto).</p>
+
+                <h2>División con decimales</h2>
+                <p>Si quieres un cociente decimal, agrega ceros al dividendo y continúa dividiendo como con enteros.</p>
+
+                <h2>División de números negativos</h2>
+                <p>El cociente será negativo si exactamente uno de los números (dividendo o divisor) es negativo; será positivo si ambos tienen el mismo signo.</p>
+
+                <h2>Propiedades y relaciones</h2>
+                <ul>
+                    <li>No es conmutativa: a ÷ b ≠ b ÷ a.</li>
+                    <li>Relación con multiplicación: dividendo = divisor × cociente + resto.</li>
+                </ul>
+
+                <h2>Errores comunes</h2>
+                <ul>
+                    <li>Elegir un cociente parcial demasiado grande y tener que retroceder.</li>
+                    <li>Olvidar bajar la siguiente cifra del dividendo.</li>
+                    <li>Dividir por cero (error conceptual).</li>
+                </ul>
+
+                <h2>Tabla de ejemplos</h2>
+                <table border="1" cellpadding="5">
+                    <tr><th>Dividendo</th><th>Divisor</th><th>Cociente</th><th>Resto</th></tr>
+                    <tr><td>154</td><td>7</td><td>22</td><td>0</td></tr>
+                    <tr><td>17</td><td>5</td><td>3</td><td>2</td></tr>
+                    <tr><td>10</td><td>4</td><td>2</td><td>2</td></tr>
+                </table>
+
+                <h2>Ejercicios</h2>
+                <h3>Básicos</h3>
+                <ol>
+                    <li>56 ÷ 7 = ?</li>
+                    <li>45 ÷ 9 = ?</li>
+                </ol>
+
+                <h3>Intermedios</h3>
+                <ol>
+                    <li>123 ÷ 5 = ? (dar cociente y resto)</li>
+                    <li>100 ÷ 8 = ? (cociente con decimales)</li>
+                </ol>
+
+                <h3>Soluciones</h3>
+                <ol>
+                    <li>56 ÷ 7 = <strong>8</strong></li>
+                    <li>45 ÷ 9 = <strong>5</strong></li>
+                    <li>123 ÷ 5 → cociente = <strong>24</strong>, resto = <strong>3</strong> (24.6 si se expresa en decimales)</li>
+                    <li>100 ÷ 8 = <strong>12.5</strong></li>
+                </ol>
+
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td colspan="2" align="center">
+                <p>© 2025 Matemáticas Básicas | Proyecto educativo en HTML puro</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

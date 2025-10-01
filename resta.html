@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Matemáticas Básicas: Resta</title>
+</head>
+<body>
+    <!-- Tabla general que organiza toda la página -->
+    <table border="1" width="100%" cellpadding="10">
+        <!-- Encabezado -->
+        <tr>
+            <td colspan="2" align="center">
+                <h1>Matemáticas Básicas: Resta</h1>
+                <img src="imagenes/resta.png" alt="Icono resta" width="220">
+                <p>Lección completa: definiciones, métodos, ejemplos y ejercicios sobre la resta</p>
+            </td>
+        </tr>
+
+        <!-- Barra de navegación -->
+        <tr>
+            <td colspan="2" align="center">
+                <a href="index.html">Inicio</a> |
+                <a href="numeros.html">Números</a> |
+                <a href="suma.html">Suma</a> |
+                <a href="resta.html">Resta</a> |
+                <a href="multiplicacion.html">Multiplicación</a> |
+                <a href="division.html">División</a> |
+                <a href="trigonometria.html">Trigonometria</a> |
+                <a href="geometria.html">Geometría</a> |
+                <a href="algebra.html">Álgebra</a> |
+                <a href="contacto.html">Contacto</a>
+            </td>
+        </tr>
+
+        <!-- Cuerpo dividido en aside y contenido principal -->
+        <tr>
+            <!-- Aside -->
+            <td width="25%" valign="top">
+                <h3>Cómo usar esta página</h3>
+                <ul>
+                    <li>Lee la teoría completa antes de hacer los ejercicios.</li>
+                    <li>Practica los ejemplos en papel usando la técnica en columna.</li>
+                    <li>Comprueba tus respuestas con la suma inversa.</li>
+                </ul>
+
+                <h3>Consejos prácticos</h3>
+                <ul>
+                    <li>Si la resta implica varias cifras, alinea correctamente las columnas.</li>
+                    <li>Al realizar “pedidos prestados” (prestar), anota la llevada para evitar errores.</li>
+                    <li>Para decimales, siempre alinea los puntos decimales verticalmente.</li>
+                </ul>
+
+                <h3>Curiosidad</h3>
+                <p>
+                    Antes de que se estandarizara el signo “−”, los comerciantes describían la acción como “quitar” o “menos” en textos contables antiguos.
+                </p>
+            </td>
+
+            <!-- Contenido principal -->
+            <td width="75%" valign="top">
+                <h2>¿Qué es la resta?</h2>
+                <p>
+                    La <strong>resta</strong> es una operación aritmética que consiste en <strong>quitar</strong> una cantidad a otra para obtener la diferencia entre ambas. 
+                    Se escribe con el signo <strong>−</strong>.
+                </p>
+
+                <h2>Terminología</h2>
+                <ul>
+                    <li><strong>Minuendo:</strong> número del cual se resta (ej.: en 12 − 7, 12 es el minuendo).</li>
+                    <li><strong>Sustraendo:</strong> número que se resta (ej.: 7).</li>
+                    <li><strong>Diferencia:</strong> resultado de la resta (ej.: 5).</li>
+                </ul>
+
+                <h2>Breve historia</h2>
+                <p>
+                    La resta aparece en registros muy antiguos (tablillas, cuentas). El símbolo moderno “−” se popularizó en Europa en los siglos XV–XVI.
+                </p>
+
+                <h2>Métodos para efectuar una resta</h2>
+                <h3>Con objetos o dibujos</h3>
+                <p>Representa físicamente lo que se quita (por ejemplo, 8 fichas y quitas 3 → quedan 5).</p>
+
+                <h3>En la línea numérica</h3>
+                <p>Coloca el dedo en el minuendo y avanza hacia la izquierda el número del sustraendo.</p>
+
+                <h3>En columna (algoritmo tradicional con “pedir prestado”)</h3>
+                <p>
+                    Se alinean las cifras (unidades con unidades, decenas con decenas) y se resta columna por columna de derecha a izquierda. 
+                    Si la cifra del minuendo en una columna es menor que la del sustraendo, se pide prestado 1 de la columna siguiente (equivalente a 10 en sistema decimal).
+                </p>
+
+                <h2>Ejemplos paso a paso</h2>
+                <h3>Ejemplo 1 — sin pedir prestado</h3>
+                <pre>
+   54
+ - 21
+ ----
+   33
+                </pre>
+                <p>Unidades: 4 − 1 = 3. Decenas: 5 − 2 = 3. Resultado: 33.</p>
+
+                <h3>Ejemplo 2 — pidiendo prestado</h3>
+                <pre>
+   63
+ - 28
+ ----
+</pre>
+                <p>Paso a paso:</p>
+                <ol>
+                    <li>Unidades: 3 < 8 → pedimos prestado 1 de las decenas. Entonces unidades: 13 − 8 = 5.</li>
+                    <li>Decenas: ahora 6 se convirtió en 5 (porque prestamos 1) → 5 − 2 = 3.</li>
+                </ol>
+                <pre>
+   63
+ - 28
+ ----
+   35
+</pre>
+
+                <h3>Ejemplo 3 — resta con encadenamiento de préstamos</h3>
+                <pre>
+  1002
+ -  789
+ ------
+</pre>
+                <p>Algunas columnas requieren préstamos en cadena; realiza los préstamos desde la columna no nula más a la izquierda.</p>
+
+                <h2>Resta con decimales</h2>
+                <p>Siempre alinea los puntos decimales. Si faltan cifras, completa con ceros.</p>
+                <pre>
+  12.50
+ - 3.75
+ ------
+   8.75
+</pre>
+
+                <h2>Resta y números negativos</h2>
+                <p>
+                    Cuando el sustraendo es mayor que el minuendo, la diferencia es negativa.  
+                    Ejemplo: 3 − 7 = −4. En la recta numérica, se mueve hacia la izquierda más allá del cero.
+                </p>
+
+                <h2>Propiedades</h2>
+                <ul>
+                    <li><strong>No conmutativa:</strong> a − b ≠ b − a, en general.</li>
+                    <li><strong>No asociativa:</strong> (a − b) − c ≠ a − (b − c).</li>
+                    <li><strong>Elemento neutro:</strong> a − 0 = a.</li>
+                </ul>
+
+                <h2>Errores comunes</h2>
+                <ul>
+                    <li>Olvidar pedir prestado cuando corresponde (causa respuestas demasiado grandes).</li>
+                    <li>Pedir prestado incorrectamente (restar la llevada dos veces o restarla del sustraendo en lugar del minuendo).</li>
+                    <li>No alinear decimales o columnas.</li>
+                </ul>
+
+                <h2>Aplicaciones en la vida diaria</h2>
+                <ul>
+                    <li>Calcular el cambio al pagar en efectivo.</li>
+                    <li>Determinar cuánto falta para alcanzar una meta (dinero, distancia, tiempo).</li>
+                    <li>Comparar cantidades y averiguar diferencias entre registros.</li>
+                </ul>
+
+                <h2>Tabla de ejemplos</h2>
+                <table border="1" cellpadding="5">
+                    <tr><th>Minuendo</th><th>Sustraendo</th><th>Diferencia</th></tr>
+                    <tr><td>63</td><td>28</td><td>35</td></tr>
+                    <tr><td>120</td><td>45</td><td>75</td></tr>
+                    <tr><td>5.50</td><td>2.75</td><td>2.75</td></tr>
+                </table>
+
+                <h2>Ejercicios</h2>
+                <h3>Básicos</h3>
+                <ol>
+                    <li>25 − 8 = ?</li>
+                    <li>90 − 35 = ?</li>
+                </ol>
+
+                <h3>Intermedios</h3>
+                <ol>
+                    <li>450 − 275 = ?</li>
+                    <li>1000 − 789 = ?</li>
+                </ol>
+
+                <h3>Soluciones</h3>
+                <ol>
+                    <li>25 − 8 = <strong>17</strong></li>
+                    <li>90 − 35 = <strong>55</strong></li>
+                    <li>450 − 275 = <strong>175</strong></li>
+                    <li>1000 − 789 = <strong>211</strong></li>
+                </ol>
+
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td colspan="2" align="center">
+                <p>© 2025 Matemáticas Básicas | Proyecto educativo en HTML puro</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

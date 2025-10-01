@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Matemáticas Básicas</title>
+</head>
+<body>
+    <!-- Tabla general que organiza toda la página -->
+    <table border="1" width="100%" cellpadding="10">
+        <!-- Encabezado -->
+        <tr>
+            <td colspan="2" align="center">
+                <h1>Contacto</h1>
+                <p>Comunícate con nosotros y deja tu opinión</p>
+            </td>
+        </tr>
+
+        <!-- Barra de navegación -->
+        <tr>
+            <td colspan="2" align="center">
+                <a href="index.html">Inicio</a> |
+                <a href="numeros.html">Números</a> |
+                <a href="suma.html">Suma</a> |
+                <a href="resta.html">Resta</a> |
+                <a href="multiplicacion.html">Multiplicación</a> |
+                <a href="division.html">División</a> |
+                <a href="trigonometria.html">Trigonometría</a> |
+                <a href="geometria.html">Geometría</a> |
+                <a href="algebra.html">Álgebra</a> |
+                <a href="contacto.html">Contacto</a>
+            </td>
+        </tr>
+
+        <!-- Cuerpo dividido en aside y contenido principal -->
+        <tr>
+            <!-- Aside -->
+            <td width="25%" valign="top">
+                <h3>Formas de contacto</h3>
+                <p>Puedes comunicarte con nosotros a través de los siguientes medios:</p>
+                <ul>
+                    <li><b>Email:</b> contacto@matematicasbasicas.com</li>
+                    <li><b>Teléfono:</b> +57 300 123 4567</li>
+                    <li><b>Dirección:</b> Calle 123, Ciudad, País</li>
+                </ul>
+
+                <h3>Redes sociales</h3>
+                <ul>
+                    <li>Facebook: @MatematicasBasicas</li>
+                    <li>Instagram: @Matematicas_Basicas</li>
+                    <li>Twitter: @MateBasicas</li>
+                </ul>
+
+                <h3>Nota</h3>
+                <p>Tu opinión es importante para seguir mejorando este proyecto educativo.</p>
+            </td>
+
+            <!-- Contenido principal -->
+            <td width="75%" valign="top">
+                <h2>Cuestionario de Opinión</h2>
+                <p>Por favor, completa el siguiente formulario para ayudarnos a mejorar los contenidos:</p>
+
+                <form action="#" method="post">
+                    <table border="0" cellpadding="5">
+                        <tr>
+                            <td><label for="nombre">Nombre:</label></td>
+                            <td><input type="text" id="nombre" name="nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="correo">Correo electrónico:</label></td>
+                            <td><input type="email" id="correo" name="correo" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tema">¿Cuál tema te pareció más útil?</label></td>
+                            <td>
+                                <select id="tema" name="tema">
+                                    <option value="suma">Suma</option>
+                                    <option value="resta">Resta</option>
+                                    <option value="multiplicacion">Multiplicación</option>
+                                    <option value="division">División</option>
+                                    <option value="trigonometria">Trigonometría</option>
+                                    <option value="geometria">Geometría</option>
+                                    <option value="algebra">Álgebra</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="opinion">¿Qué opinas de la página?</label></td>
+                            <td>
+                                <textarea id="opinion" name="opinion" rows="4" cols="40" placeholder="Escribe tu opinión aquí..."></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>¿Recomendarías esta página?</label></td>
+                            <td>
+                                <input type="radio" id="si" name="recomienda" value="si"> Sí
+                                <input type="radio" id="no" name="recomienda" value="no"> No
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <button type="submit">Enviar</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td colspan="2" align="center">
+                <p>© 2025 Matemáticas Básicas | Proyecto educativo en HTML puro</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

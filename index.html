@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio - Matemáticas Básicas</title>
+</head>
+<body>
+    <!-- Tabla general que organiza toda la página -->
+    <table border="1" width="100%" cellpadding="10">
+        <!-- Encabezado -->
+        <tr>
+            <td colspan="2" align="center">
+                <h1>Bienvenidos a </h1>
+                <img src="imagenes/logo.png" alt="Icono logo" width="320">
+                <p>Aprende paso a paso los fundamentos de las matemáticas</p>
+            </td>
+        </tr>
+
+        <!-- Barra de navegación -->
+        <tr>
+            <td colspan="2" align="center">
+                <a href="index.html">Inicio</a> |
+                <a href="numeros.html">Números</a> |
+                <a href="suma.html">Suma</a> |
+                <a href="resta.html">Resta</a> |
+                <a href="multiplicacion.html">Multiplicación</a> |
+                <a href="division.html">División</a> |
+                <a href="trigonometria.html">Trigonometría</a> |
+                <a href="geometria.html">Geometría</a> |
+                <a href="algebra.html">Álgebra</a> |
+                <a href="contacto.html">Contacto</a>
+            </td>
+        </tr>
+
+        <!-- Cuerpo dividido en aside y contenido principal -->
+        <tr>
+            <!-- Aside -->
+            <td width="25%" valign="top">
+                <h3>Cómo usar esta página</h3>
+                <ul>
+                    <li>Navega con el menú superior según el tema que quieras estudiar.</li>
+                    <li>Lee la explicación y observa los ejemplos resueltos.</li>
+                    <li>Resuelve los ejercicios propuestos al final de cada sección.</li>
+                </ul>
+
+                <h3>Consejos de estudio</h3>
+                <ul>
+                    <li>Dedica al menos 20 minutos diarios a practicar.</li>
+                    <li>No pases a un tema nuevo sin dominar el anterior.</li>
+                    <li>Usa papel y lápiz para reforzar tu aprendizaje.</li>
+                </ul>
+            </td>
+
+            <!-- Contenido principal -->
+            <td width="75%" valign="top">
+                <h2>¿De qué trata esta página?</h2>
+                <p>
+                    Esta página ha sido creada para apoyar el aprendizaje de las <b>matemáticas básicas</b>. 
+                    Aquí encontrarás explicaciones claras, ejemplos sencillos y ejercicios prácticos que 
+                    te ayudarán a comprender mejor cada tema.
+                </p>
+
+                <h2>Temas que se abordan</h2>
+                <ul>
+                    <li><b>Números:</b> Naturales, enteros, decimales y fracciones.</li>
+                    <li><b>Operaciones básicas:</b> Suma, resta, multiplicación y división.</li>
+                    <li><b>Trigonometría:</b> Funciones básicas y razones trigonométricas.</li>
+                    <li><b>Geometría:</b> Figuras planas y sólidos, perímetros, áreas y volúmenes.</li>
+                    <li><b>Álgebra:</b> Expresiones algebraicas, ecuaciones y polinomios.</li>
+                </ul>
+
+                <h2>Objetivo de la página</h2>
+                <p>
+                    Brindar un recurso educativo gratuito, práctico y sencillo para estudiantes, docentes 
+                    y cualquier persona que desee mejorar sus conocimientos en matemáticas.
+                </p>
+
+                <h2>Formulario de Registro</h2>
+                <p>Regístrate para recibir materiales adicionales y actualizaciones:</p>
+
+                <form action="#" method="post">
+                    <table border="0" cellpadding="5">
+                        <tr>
+                            <td><label for="nombre">Nombre completo:</label></td>
+                            <td><input type="text" id="nombre" name="nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="correo">Correo electrónico:</label></td>
+                            <td><input type="email" id="correo" name="correo" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="edad">Edad:</label></td>
+                            <td><input type="number" id="edad" name="edad" min="6" max="99"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="nivel">Nivel educativo:</label></td>
+                            <td>
+                                <select id="nivel" name="nivel">
+                                    <option value="primaria">Primaria</option>
+                                    <option value="secundaria">Secundaria</option>
+                                    <option value="universidad">Universidad</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="comentario">¿Por qué quieres aprender matemáticas?</label></td>
+                            <td><textarea id="comentario" name="comentario" rows="4" cols="40"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <button type="submit">Registrarme</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td colspan="2" align="center">
+                <p>© 2025 Matemáticas Básicas | Proyecto educativo en HTML puro</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
